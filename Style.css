@@ -1,0 +1,75 @@
+body{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #747474;
+    padding-top: 70px;
+}
+header{
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items:center;
+    margin: 0;
+    padding-bottom: 40px;
+    
+}
+header img{
+    padding-top: 0;
+}
+#pt{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-start: 20px;
+}
+#healthcare h1{
+    text-align: center;
+}
+#healthcare img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+ }
+nav li{
+    display: inline;
+    margin: 10px;
+}
+#images{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1px;
+    grid-row-start: 1px;
+}
+#images img{
+    width: 100%;
+}
+#improve *{
+    text-align: center;
+}
+#three_for{
+    display:flex;
+    justify-content: space-between;
+
+}
+#For_patients{
+    background-color: #00ccb1;
+    color: white;
+}
+#For_doctors{
+    background-color: #3d83df;
+    color: white;
+}
+#For_clinics{
+    background-color:#1b2734;
+    color: white;
+}
